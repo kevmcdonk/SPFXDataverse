@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0-rc.0",
+    "libraryName": "spfx-dataverse",
+    "libraryId": "2f08f034-d899-42a8-8bcc-350bcc852d2c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-dataverse",
+    "solutionShortDescription": "spfx-dataverse description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
