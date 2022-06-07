@@ -29,11 +29,11 @@ export default class SpfxDataverse extends React.Component<ISpfxDataverseProps, 
     } = this.props;
 
     this.dataverseClient
-      .get('https://contoso-api-dp20191109.azurewebsites.net/api/Orders', AadHttpClient.configurations.v1)
+      .get('https://org312588b2.api.crm11.dynamics.com/api/data/v9.2/account', AadHttpClient.configurations.v1)
       .then((res: HttpClientResponse): Promise<React.ReactElement<ISpfxDataverseProps>> => {
         return res.json();
       })
-      .then((orders: any): React.ReactElement<ISpfxDataverseProps> => {
+      .then((accounts: any): React.ReactElement<ISpfxDataverseProps> => {
     
 
         return (
