@@ -28,18 +28,13 @@
     "@microsoft/sp-build-web": "1.15.0-rc.0",
     "@microsoft/sp-module-interfaces": "1.15.0-rc.0",
     "@rushstack/eslint-config": "2.5.1",
-    "@types/chai": "^4.3.1",
-    "@types/jest": "^28.1.1",
     "@types/react": "16.9.51",
     "@types/react-dom": "16.9.8",
     "@types/webpack-env": "~1.15.2",
-    "@voitanos/jest-preset-spfx-react16": "^1.5.0",
     "ajv": "^6.12.5",
     "eslint": "8.7.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "gulp": "4.0.2",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^28.1.1",
-    "ts-jest": "^28.0.4"
+    "identity-obj-proxy": "^3.0.0"
   }
 }
